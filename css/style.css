@@ -1,0 +1,47 @@
+@media (max-width: 767px) { 
+  body{
+    background: radial-gradient(rgb(188, 16, 240), rgb(119, 5, 153));
+  }
+}
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+h1{
+  font-weight: 900;
+}
+span{
+  font-weight: 100;
+  font-style: italic;
+}
+.control{
+  /*background-color: #eee;*/
+  margin: 15px 0;
+  /*box-shadow: 0px 0px 3px gray;*/
+  padding: 20px 40px;
+  width: 20rem;
+  height: 250px;
+}
+#main h2:first-child{
+  margin-top: 50px;
+  padding-top: 15px;
+}
+#eslogan{
+  text-shadow: 1px 1px 5px white, 1px 1px 5px white, 1px 1px 5px white;
+}
+h2{
+  color: gray;
+  font-size: 30px;
+}
+h3{
+  font-size: 18px;
+}
+p{
+  padding-top: 7px;
+  font-size: 14px;
+  font-weight: 100;
+}
+/*#portada{
+  background-image: url('../assets/portada.jpg');
+  overflow: unset;
+}*/

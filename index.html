@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./assets/vicus.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>VICUS-Landing page</title>
+  </head>
+  <body class="container mx-auto mt-10 text-center">
+    <header id="header" class="p-5 bg-purple-100 flex flex-col lg:flex-row lg:items-center lg:justify-around rounded-md shadow-xl">
+      <img src="./assets/vicus.svg" alt="Logo Vicus" class="h-20 md:h-28">
+      <!--<h1 class="flex-1text-lg md:text-xl lg:text-3xl">GESTIONA TU COMUNIDAD DE VECINOS</h1>-->
+    </header>
+    <main id="main">
+      <div id="portada" class="mt-10 h-56 md:h-96 lg:h-[600px] overflow-hidden">
+        <div id="eslogan" class="pt-5 pl-5 md:pt-14 md:pl-36 lg:pt-36 lg:pl-80 text-left absolute">
+          <h1 class="text-4xl lg:text-6xl">GESTIÓN <br><span>de comunidades</span></h1>
+        <p class="mt-2 text-2xl lg:mt-5 lg:text-4xl">Administra tu comunidad<br>y sus zonas comunes<br>para una convivencia ideal.</p>  
+        </div>
+        <img src="./assets/portada.jpg" alt="Foto puertas">
+      </div>
+      <h2 class="text-white md:text-black my-10">Control Administrador</h2>
+      <div id="admin" class="p-10 flex flex-wrap justify-evenly bg-slate-100">
+        <div class="control">
+          <img  class="mx-auto mb-5 h-16" src="./assets/icons/004-estrategia.png" alt="Todo el control">
+          <h3>Todo el control</h3>
+          <p>Toma el control sobre la creación, edición o eliminación de comunidades o zonas comunes.</p>
+        </div>
+        <div class="control">
+          <img  class="mx-auto mb-5 h-16" src="./assets/icons/011-diseno-web.png" alt="Activa / Desactiva">
+          <h3>Activa / Desactiva</h3>
+          <p>Ten el control sobre las zonas comunes, desactivándolas cuando requieran mantenimiento o por cualquier motivo.</p>
+        </div>
+        <div class="control">
+          <img  class="mx-auto mb-5 h-16" src="./assets/icons/003-tarjeta-de-identificacion.png" alt="">
+          <h3>Otorga el control necesario</h3>
+          <p>Asigna una comunidad a un usuario registrado para que tenga el control en su comunidad de vecinos.</p>
+        </div>
+        <div class="control">
+          <div class="flex justify-center">
+            <img  class="mx-auto mb-5 h-16" src="./assets/icons/010-raton.png" alt="">
+          <img  class="mx-auto mb-5 h-16" src="./assets/icons/001-telefono-inteligente.png" alt="">
+          </div>
+          <h3>Desde cualquier lugar</h3>
+          <p>App 100% responsive, accede desde tu ordenador de escritorio, tablet o smartphone, siempre con la máxima comodidad.</p>
+        </div>
+      </div>
+      <h2 class="text-white md:text-black my-10">Control Usuario</h2>
+      <div id="usuario" class="p-10 flex flex-wrap justify-evenly bg-slate-100">
+        <div class="control">
+          <img  class="mx-auto mb-5 h-16" src="./assets/icons/003-tarjeta-de-identificacion.png" alt="">
+          <h3>Reserva una zona</h3>
+          <p>Registra nuevas comunidades, nuevas zonas de acceso, da de alta usuario o administradores, todo el control desde tu escritorio o tu Smartphone.</p>
+        </div>
+        <div class="control">
+          <img  class="mx-auto mb-5 h-16" src="./assets/icons/003-tarjeta-de-identificacion.png" alt="">
+          <h3>Todo el control</h3>
+          <p>Registra nuevas comunidades, nuevas zonas de acceso, da de alta usuario o administradores, todo el control desde tu escritorio o tu Smartphone.</p>
+        </div>        
+      </div>  
+      <div class="text-white md:text-black">Iconos diseñados por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>          
+    </main>
+    <footer class="flex items-center justify-center h-32 bg-slate-800">
+      <input class="p-2" type="email" placeholder="ejemplo@ejemplo.com">
+      <button class="ml-2 py-2 px-6 bg-white">Suscríbete</button>
+    </footer>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
